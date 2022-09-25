@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @DarenShamoun
-- 👀 I’m interested in C++ and python development
-- 🌱 I’m currently learning automation with python
+- 👀 I’m interested in C++, java and python development
+- 🌱 I’m currently learning data structures and object oriented programming in multiple languages
 - 💞️ I’m looking to collaborate on anything that is a good challenge
 - 📫 How to reach me darenshamoun@gmail.com
 

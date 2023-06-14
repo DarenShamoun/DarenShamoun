@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @DarenShamoun
-- 👀 I’m interested in C++, java, python and web development development
+- 👀 I’m interested in C++, java, python, javascript and web development development
 - 🌱 I’m currently learning Assembly Language and ARM architechture
 - 💞️ I’m looking to collaborate on anything that is a good challenge
 - 📫 How to reach me: darenshamoun@gmail.com

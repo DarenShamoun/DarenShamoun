@@ -1,8 +1,7 @@
 - 👋 Hi, I’m @DarenShamoun
-- Check out my website! [dashbyte.net](https://dashbyte.net/)
-- 👀 I’m interested in C++, java, python, javascript and web development development in React.js and Vue.js!
-- 🌱 I’m currently learning Assembly Language and ARM architechture
-- 💞️ I’m looking to collaborate on anything that is a good challenge
+- 👀 I’m currently interested in javascript, python, web development in React.js and postgreSQL!
+- 🌱 I’m currently learning web development and integration with AI systems
+- 💞️ I’m looking to collaborate on machine learning and AI projects
 - 📫 How to reach me: darenshamoun@gmail.com
 
 <!---

@@ -8,6 +8,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a2980,100:26d0ce&height=200&section=header&text=Daren%20Shamoun&fontColor=ffffff&fontSize=70&fontAlignY=38&desc=Software%20Engineer%20%C2%B7%20Full-Stack%20%C2%B7%20Embedded%20%C2%B7%20Agentic%20AI&descAlignY=58&descSize=18" width="100%" alt="Daren Shamoun" />
 
+<a href="https://darenshamoun.github.io"><img src="https://img.shields.io/badge/Portfolio-26D0CE?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
 <a href="https://www.linkedin.com/in/daren-shamoun"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:darenshamoun@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://github.com/DarenShamoun"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
@@ -74,7 +75,7 @@ I'm a **software engineer** who builds production systems end-to-end — across 
 ### 🩺 BD-Pixie — Wireless Companion for the BD Alaris Infusion Pump
 > _Software Engineer Intern @ BD · USD Senior Design × BD_
 
-A wireless platform that lets biomedical techs triage and provision infusion pumps **at the bedside**, eliminating the cart-laptop-cable workflow. Authored **80%+ of commits** across both ends of the system.
+A wireless platform that lets biomedical techs triage and provision infusion pumps **at the bedside**, eliminating the cart-laptop-cable workflow. As the BLE, mobile, and embedded lead I authored the **majority of the implementation** (~80% of the total build across both ends of the system).
 - **Mobile (React Native):** secure QR-code pairing, real-time pump status, chunked-BLE diagnostic log retrieval with end-to-end CRC integrity (**~25–50× faster** than serial reads), and **batch provisioning of 10+ pumps** from one handheld session.
 - **Embedded (Python on embedded Linux):** custom GATT protocol, device-side state management, and PCU API integration — refactored to **SOLID** for clean handoff to BD's firmware team.
 - **Projected impact:** ~90 min saved per pump per service cycle · ~750 hours back per 500-pump fleet · 50% fewer pumps pulled for diagnostics.
@@ -84,12 +85,22 @@ A wireless platform that lets biomedical techs triage and provision infusion pum
 
 Solo-built the **end-to-end digital transformation** of a multi-property real estate business, replacing paper operations. **Next.js + React · Flask · PostgreSQL · Tailwind**, with modular data models for properties, units, tenants, leases, and financials plus secure document handling.
 
+### ⚙️ Pipelined RISC-V Processor — Digital Systems
+> _[Digital-Hardware-Projects](https://github.com/DarenShamoun/Digital-Hardware-Projects) · SystemVerilog_
+
+A **5-stage pipelined RISC-V CPU** built from logic gates up — full adder → Karnaugh-mapped decoders → ALU → single-cycle core → the pipelined design — with a complete **hazard unit** (data forwarding, load-use stalls, control-hazard flushing). Verified in **ModelSim**, synthesized for **FPGA** in Quartus.
+
+### 🌐 Computer Networks in C/C++
+> _[Networking-Projects](https://github.com/DarenShamoun/Networking-Projects) · C · C++_
+
+Low-level systems networking: a **multithreaded HTTP server** (thread pool + bounded buffer), a **stop-and-wait reliable-transport protocol** over an unreliable socket (handshake, sequencing, retransmission), an iterative **DNS resolver**, and reverse-engineering an undocumented protocol from packet captures.
+
 ### 💻 Dashbyte — IT Services Company (Co-Founder & Head of IT)
 > _Jul 2020 – Jan 2024_
 
 Co-founded an IT company **as a teenager** — delivered **10+ client websites**, built and deployed **~50 systems** (PCs, servers, mining rigs), and ran ongoing IT and network support.
 
-> 🔭 Also exploring: **digital hardware** (SystemVerilog), **C++ data structures & algorithms**, and **networking** — pinned above.
+> 🔭 More projects — **real-time computer vision** (MediaPipe + IoT), **ML pipelines**, a **Chrome extension**, and an in-browser **n-body simulator** — on my **[portfolio »](https://darenshamoun.github.io)**.
 
 ---
 

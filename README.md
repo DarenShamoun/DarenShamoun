@@ -106,12 +106,21 @@ Co-founded an IT company **as a teenager** — delivered **10+ client websites**
 
 ## 📊 GitHub Stats
 
+<!-- These cards are generated as static SVGs by the weekly
+     "GitHub Profile Summary Cards" Action (.github/workflows/profile-summary-cards.yml),
+     so they always render — no dependency on a third-party live service. -->
+
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=DarenShamoun&show_icons=true&count_private=true&hide_border=true&title_color=26d0ce&icon_color=26d0ce&text_color=c9d1d9&bg_color=0d1117" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DarenShamoun&layout=compact&hide_border=true&title_color=26d0ce&text_color=c9d1d9&bg_color=0d1117&langs_count=8" alt="Top languages" />
+<img src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="Profile summary" width="85%" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=DarenShamoun&hide_border=true&background=0d1117&stroke=26d0ce&ring=26d0ce&fire=1a2980&currStreakLabel=26d0ce&sideLabels=c9d1d9&dates=8b949e" alt="GitHub streak" />
+<img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="GitHub stats" />
+<img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Top languages" />
+
+<img src="https://streak-stats.demolab.com/?user=DarenShamoun&hide_border=true&background=0d1117&stroke=26d0ce&ring=26d0ce&fire=1a2980&currStreakLabel=26d0ce&sideLabels=c9d1d9&dates=8b949e" alt="GitHub streak" />
+
+<img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Most-used language" />
+<img src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Productive time" />
 
 </div>
 

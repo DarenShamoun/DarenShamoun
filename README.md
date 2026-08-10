@@ -20,7 +20,7 @@
 
 ## About me
 
-I'm a software engineer who likes building things end to end, whether that ends up being a full-stack web app, a mobile app, or code running on an embedded Linux board. Right now I'm a Software Engineer Intern at BD (Becton Dickinson), where I lead BD-Pixie, a wireless companion platform for the BD Alaris infusion pump that pairs a React Native app with a service running on the pump's embedded Linux board. That range is something I really enjoy, as I'm comfortable anywhere from a custom GATT/BLE protocol on bare embedded Linux all the way up to a Next.js and PostgreSQL product UI.
+I'm a software engineer who likes building things end to end, whether that ends up being a full-stack web app, a mobile app, or code running on an embedded Linux board. Most recently I worked as a Software Engineer Intern at BD (Becton Dickinson), where I lead BD-Pixie, a wireless companion platform for the BD Alaris infusion pump that pairs a React Native app with a service running on the pump's embedded Linux board. That range is something I really enjoy, as I'm comfortable anywhere from a custom GATT/BLE protocol on bare embedded Linux all the way up to a Next.js and PostgreSQL product UI.
 
 I graduated from the University of San Diego in May 2026, magna cum laude with departmental honors, with a B.S. in Computer Science focused in AI & Data Science and a 3.83 GPA. I also treat agentic AI workflows as core engineering infrastructure rather than a novelty, I orchestrate specialized parallel agents (planner, reviewer, build-error-resolver, security) behind real audit gates so that what comes out is actually production quality.
 

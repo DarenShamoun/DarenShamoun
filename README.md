@@ -117,7 +117,7 @@ More of my projects, including real-time computer vision with MediaPipe and IoT,
 <img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="GitHub stats" />
 <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Top languages" />
 
-<img src="https://streak-stats.demolab.com/?user=DarenShamoun&hide_border=true&background=0d1117&stroke=26d0ce&ring=26d0ce&fire=1a2980&currStreakLabel=26d0ce&sideLabels=c9d1d9&dates=8b949e" alt="GitHub streak" />
+<img src="https://streak-stats.demolab.com/?user=DarenShamoun&hide_border=true&background=0d1117&stroke=26d0ce&ring=26d0ce&fire=26d0ce&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=26d0ce&sideLabels=c9d1d9&dates=8b949e" alt="GitHub streak" />
 
 <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Most-used language" />
 <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Productive time" />

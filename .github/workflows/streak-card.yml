@@ -1,0 +1,47 @@
+name: Streak Card
+
+# The public streak-stats.demolab.com instance is too slow/flaky for GitHub's
+# Camo image proxy (504s) — same failure mode that moved the summary cards to
+# static SVGs. So we fetch the card here and serve it as a static file instead.
+
+on:
+  schedule:
+    - cron: "30 12 * * *"   # daily, 12:30 UTC (streak dates change every day)
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/streak-card.yml'
+
+concurrency:
+  group: streak-card
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    name: refresh streak card
+    permissions:
+      contents: write        # scoped to this workflow only, so it can commit the SVG
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch streak card
+        run: |
+          url="https://streak-stats.demolab.com/?user=DarenShamoun&hide_border=true&background=0d1117&stroke=26d0ce&ring=26d0ce&fire=26d0ce&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=26d0ce&sideLabels=c9d1d9&dates=8b949e"
+          # the service intermittently returns an error card with HTTP 200, so
+          # validate the payload is a real card before accepting it — otherwise
+          # keep the previous good SVG rather than failing the run
+          if curl -sf --retry 5 --retry-delay 15 --retry-all-errors --max-time 120 "$url" -o /tmp/streak.svg \
+              && grep -q "Current Streak" /tmp/streak.svg; then
+            mv /tmp/streak.svg assets/streak-stats.svg
+          else
+            echo "streak-stats fetch failed or returned an error card; keeping previous SVG"
+          fi
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/streak-stats.svg
+          git diff --cached --quiet || { git commit -m "chore: refresh streak card"; git push; }
